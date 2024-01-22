@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  holamundo:
+    image: holamundo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
